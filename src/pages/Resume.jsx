@@ -1,11 +1,15 @@
 import React from 'react'
-import {
-  NavLink,
-} from "react-router-dom";
+import PhotoAlbum from "react-photo-album";
+import Lightbox from "yet-another-react-lightbox";
+import "yet-another-react-lightbox/styles.css";
+import photos from "../store/certificates";
 
 const Resume = () => {
 
   document.title = "Резюме Андрея";
+
+
+  const [index, setIndex] = React.useState(-1);
 
   return (
     <section className="content-section">
@@ -92,15 +96,27 @@ const Resume = () => {
 
 					<h2>Сертификаты</h2>
 
-					<p>Контрапункт контрастных фактур имитирует midi-контроллер. Процессуальное изменение образует модальный флюгель-горн. 
-					Попса свободна. Нонаккорд, и это особенно заметно у Чарли Паркера или Джона Колтрейна, интенсивен. Как мы уже знаем,
-					пентатоника имитирует винил.</p>
+					<PhotoAlbum
+						layout="rows"
+						photos={photos}
+						targetRowHeight={150}
+						onClick={(event, photo, index) => setIndex(index)}
+						componentsProps={{ imageProps: { loading: "lazy" } }}
+					/>
 
 				</div>
 				
 				<div className="navbar"></div>
+
+				<Lightbox
+						open={index >= 0}
+						index={index}
+						close={() => setIndex(-1)}
+						slides={photos}
+					/>
 				
 			</section>
+			
   )
 }
 

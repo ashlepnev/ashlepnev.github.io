@@ -140,7 +140,7 @@ main {
 	display: flex;
 	flex-grow: 1;
 	flex-direction: row;
-	padding: 40px 100px;
+	padding: 40px 100px 100px 100px;
 }
 
 .article {
