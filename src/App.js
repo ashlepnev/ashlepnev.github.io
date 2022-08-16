@@ -24,11 +24,8 @@ function App() {
       <div className="container">
         <header className="header">
           <div className="header-container">
-            <div className="header-logo">
-              <a href="/" className="">
-                фотка
-              </a>
-              <h1 className="header-blog-description">подпись</h1>
+            <div className="header-photo">
+              <img src='/images/andrey.jpg'/>
             </div>
             <nav>
               <ul className="main-menu">

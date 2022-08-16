@@ -6,8 +6,8 @@ const PortfolioItem = (props) => {
         <div className='portfolio-item-image'><img src={props.project.image}/></div>
         <div className='portfolio-item-content'>
             <p><b><a href={props.project.URL} target='_blank'>{props.project.name}</a></b><br/>
-            <i>{props.project.type}</i><br/><br/>
-            Что интересного?<br/>
+            <i>{props.project.type}</i><br/>
+            <b>Что сделано?</b><br/>
             {props.project.description}
             </p>
         </div>

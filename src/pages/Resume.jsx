@@ -106,7 +106,7 @@ const Resume = () => {
 
 
 
-					<p><a target='_blank' href='https://dev.1c-bitrix.ru/learning/resume.php?ID=35351911-247420'>эти сертификаты на сайте Битрикса</a></p>
+					<p><a target='_blank' className='blank-link' href='https://dev.1c-bitrix.ru/learning/resume.php?ID=35351911-247420'>эти сертификаты на сайте Битрикса</a></p>
 
 				</div>
 				

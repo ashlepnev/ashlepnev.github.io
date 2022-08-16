@@ -10,7 +10,7 @@ const Portfolio = () => {
     <section className="content-section">
 				<div className="content article with-navbar">
 				
-					<h1>Портфолио</h1>
+					<h1>Выполненные работы</h1>
 
 					<div className='portfolio-list'>
 					{projects.map((project, index) =>
