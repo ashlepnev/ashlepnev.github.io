@@ -12,6 +12,10 @@ h1 {
     margin: 0 0 40px 0;
 }
 
+h2 {
+	margin: 20px 0 25px 0;
+}
+
 a {
 	color: #404040;
 }
@@ -213,4 +217,27 @@ main {
 
 .work-item-company {
 	font-weight: bold;
+}
+
+
+.portfolio-item {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.portfolio-item-image {
+	margin-right: 35px;
+}
+
+.portfolio-item-name {
+	font-weight: bold;
+}
+
+.react-photo-album {
+	margin-bottom: 20px;
+}
+
+
+.contacts a {
+	text-decoration: none;
 }

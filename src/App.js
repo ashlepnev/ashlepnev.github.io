@@ -43,7 +43,7 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <a href="#" className="btn btn-header download-pdf">Скачать резюме</a>
+            <a href="#" className="btn btn-header download-pdf">Резюме в PDF</a>
           </div>
         </header>
 

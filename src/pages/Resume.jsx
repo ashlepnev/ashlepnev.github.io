@@ -104,16 +104,21 @@ const Resume = () => {
 						componentsProps={{ imageProps: { loading: "lazy" } }}
 					/>
 
+
+
+					<p><a target='_blank' href='https://dev.1c-bitrix.ru/learning/resume.php?ID=35351911-247420'>эти сертификаты на сайте Битрикса</a></p>
+
 				</div>
 				
 				<div className="navbar"></div>
 
 				<Lightbox
-						open={index >= 0}
-						index={index}
-						close={() => setIndex(-1)}
-						slides={photos}
-					/>
+					styles={{ container: { backgroundColor: "rgba(0, 0, 0, .8)" } }}
+					open={index >= 0}
+					index={index}
+					close={() => setIndex(-1)}
+					slides={photos}
+				/>
 				
 			</section>
 			
