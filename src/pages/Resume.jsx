@@ -29,7 +29,7 @@ const Resume = () => {
 							</div>
 						</div>
 						<div className='work-item-date'>
-							Июль 2019 — май 2022<br/>
+							Июль 2019 — май 2022 <br/>
 							(2 года 11 месяцев)
 						</div>
 					</div>
@@ -42,7 +42,7 @@ const Resume = () => {
 							</div>
 						</div>
 						<div className='work-item-date'>
-							Март 2018 — июнь 2019<br/>
+							Март 2018 — июнь 2019 <br/>
 							(1 год 4 месяца)
 						</div>
 					</div>
@@ -55,7 +55,7 @@ const Resume = () => {
 							</div>
 						</div>
 						<div className='work-item-date'>
-							Июнь 2017 — февраль 2018<br/>
+							Июнь 2017 — февраль 2018 <br/>
 							(9 месяцев)
 						</div>
 					</div>
@@ -70,7 +70,7 @@ const Resume = () => {
 							</div>
 						</div>
 						<div className='work-item-date'>
-							Февраль 2012 — май 2017<br/>
+							Февраль 2012 — май 2017 <br/>
 							(5 лет 4 месяца)
 						</div>
 					</div>

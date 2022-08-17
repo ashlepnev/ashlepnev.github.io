@@ -1,6 +1,5 @@
 import {React, useEffect} from 'react';
 import {
-  BrowserRouter,
   Navigate,
   Routes,
   Route,
@@ -25,7 +24,7 @@ function App() {
         <header className="header">
           <div className="header-container">
             <div className="header-photo">
-              <img src='/images/andrey.jpg'/>
+              <img src='/images/andrey.jpg' title='eto ya :)'/>
             </div>
             <nav>
               <ul className="main-menu">
@@ -40,7 +39,7 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <a href="#" className="btn btn-header download-pdf">Резюме в PDF</a>
+            <a href="#" className="btn btn-header download-pdf"><span>Резюме в PDF</span></a>
           </div>
         </header>
 
