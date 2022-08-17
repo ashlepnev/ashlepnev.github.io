@@ -19,6 +19,10 @@ function App() {
     window.scrollTo(0,0);
   }, [location]);
 
+  const scrollToTop = () => {
+    window.scrollTo(0,0);
+  }
+
   return (
       <div className="container">
         <header className="header">
@@ -56,7 +60,7 @@ function App() {
             <div className="footer-block">
               &copy; Андрей Шлепнёв
             </div>
-            <div className="footer-block text-right"></div>
+            <div className="footer-block text-right"><a href='#' onClick={() => scrollToTop()}>&uarr; Наверх</a></div>
           </footer>
           </main>
         
