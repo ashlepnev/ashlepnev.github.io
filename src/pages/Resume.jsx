@@ -6,7 +6,7 @@ import photos from "../store/certificates";
 
 const Resume = () => {
 
-  document.title = "Резюме Андрея";
+  document.title = "Резюме Андрея Шлепнёва";
 
 
   const [index, setIndex] = React.useState(-1);

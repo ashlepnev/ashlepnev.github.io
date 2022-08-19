@@ -1,6 +1,9 @@
 import React from 'react'
 
 const Contacts = () => {
+
+  document.title = "Контакты Андрея Шлепнёва";
+	
   return (
     <section className="content-section">
 				<div className="content article with-navbar contacts">

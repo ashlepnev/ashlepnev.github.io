@@ -4,7 +4,7 @@ import PortfolioItem from '../components/PortfolioItem';
 
 const Portfolio = () => {
 
-    document.title = "Портфолио Андрея";
+  document.title = "Портфолио Андрея Шлепнёва";
 
   return (
     <section className="content-section">
