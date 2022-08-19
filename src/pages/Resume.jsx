@@ -17,13 +17,13 @@ const Resume = () => {
 				
 					<h1>Шлепнёв Андрей Владимирович</h1>
 				
-					<p>Суммарный опыт работы - более 10 лет, из них более 4 лет - полностью удаленно. Битрикс24, Asana, Trello, Worksection, Notion</p>
+					<p>Bitrix-разработчик, суммарный опыт работы — более 10 лет, из них более 4 лет — полностью удаленно.</p>
 					
 					<h2>Опыт работы</h2>
 
 					<div className='work-item'>
 						<div className='work-item-content'>
-							<div className='work-item-company'>Интернет-агентство «Мультисайт»</div>
+							<div className='work-item-company'>Веб-студия «Verstkovo»</div>
 							<div className='work-item-description'><i>Bitrix-разработчик</i><br/>
 							Разработка сайтов с нуля на 1С-Битрикс, поддержка сайтов клиентов компании, внедрение нового функционала.
 							</div>
@@ -38,7 +38,7 @@ const Resume = () => {
 						<div className='work-item-content'>
 							<div className='work-item-company'>SEO-агентство «Intelsib»</div>
 							<div className='work-item-description'><i>Bitrix-разработчик</i><br/>
-							Разработка сайтов с нуля на 1С-Битрикс, поддержка сайтов клиентов компании, SEO-доработки. Интеграция с CRM и системами аналитики.
+							Поддержка сайтов клиентов компании, SEO-доработки. Интеграция с CRM и системами аналитики.
 							</div>
 						</div>
 						<div className='work-item-date'>

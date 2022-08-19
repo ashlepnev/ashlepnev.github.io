@@ -19,7 +19,8 @@ function App() {
     window.scrollTo(0,0);
   }, [location]);
 
-  const scrollToTop = () => {
+  const scrollToTop = (e) => {
+    e.preventDefault();
     window.scrollTo(0,0);
   }
 
@@ -43,7 +44,7 @@ function App() {
                 </li>
               </ul>
             </nav>
-            <a href="#" className="btn btn-header download-pdf"><span>Резюме в PDF</span></a>
+            <a href="/CV_Shlepnev.pdf" target='_blank' className="btn btn-header download-pdf"><span>Резюме в PDF</span></a>
           </div>
         </header>
 
